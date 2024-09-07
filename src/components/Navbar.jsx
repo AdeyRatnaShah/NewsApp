@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
 return (
     <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
 <div className="container-fluid">
-    <NavLink style={{color:'black',textDecoration:'none',fontSize:'20px'}} className="navbar-brand" to="#">Navbar</NavLink>
+    <NavLink style={{color:'black',textDecoration:'none',fontSize:'20px'}} className="navbar-brand" to="#">NewsApp</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
 </button>
